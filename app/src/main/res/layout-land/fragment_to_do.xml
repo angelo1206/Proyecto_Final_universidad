@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/cafe_claro"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="10dp"
+    app:cardPreventCornerOverlap="false"
+    tools:context=".ToDoFragment">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Reporte Ventas"
+                android:textSize="24dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vendedor:"
+                    android:textSize="14dp"
+                    android:fontFamily="@font/poppins_medium"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="Yuliana Riveros"
+                    android:textSize="14dp"
+                    android:fontFamily="@font/poppins_medium"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+
+            android:id="@+id/recyclerTodoList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

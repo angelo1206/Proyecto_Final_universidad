@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cafe_claro"
+    tools:context=".ArticuloFragment">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:titleTextColor="@android:color/primary_text_dark"
+        android:background="@color/cafe_bar"
+        android:elevation="4dp"
+        android:fontFamily="@font/poppins_medium"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/poppins_medium"
+            />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        >
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_reg_arti"
+            android:gravity="center_horizontal|top"
+            android:textSize ="26sp"
+            android:textColor="#312E2C"
+            android:fontFamily="@font/poppins_bold"
+            />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="false">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/cortina_3"
+            android:alpha=".45"/>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/txt_articode"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edtCliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/design_text"
+                android:ems="27"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="9sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/txt_type_curtain"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edtCcCliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="123dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/design_text"
+                android:ems="27"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="9sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="180dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/txt_color_curtain"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edtCodigoVenta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="201dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/design_text"
+                android:ems="27"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="9sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="260dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/txt_metersquare"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edtFechVenta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="285dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/design_text"
+                android:ems="27"
+                android:fontFamily="@font/poppins_medium"
+                android:inputType="datetime"
+                android:textSize="9sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="390dp"
+                android:background="@drawable/design_button"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/txt_btnabono"
+                android:textColor="@color/white" />
+
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

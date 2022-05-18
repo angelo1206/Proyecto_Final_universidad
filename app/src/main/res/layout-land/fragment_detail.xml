@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/cafe_claro"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="10dp"
+    app:cardPreventCornerOverlap="false"
+    tools:context=".DetailFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginStart="20dp"
+
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Detalles de la Venta"
+                android:textSize="24dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Datos de la venta"
+                android:textColor="@color/orange"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Código de venta:"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textViewCodVen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="90dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="xxxxxxxxx"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Código del Vendedor:"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textViewCodVende"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="90dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="xxxxxxxxx"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="500dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Fecha:"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textViewFechVen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="500dp"
+                android:layout_marginTop="90dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="xxxxxxxxx"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="120dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Datos del Cliente"
+                android:textColor="@color/orange"
+                android:textSize="12sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="140dp"
+                android:background="@drawable/detail_datos">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="Nombre Completo:"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textViewNameClient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="xxxxxxxxx"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Fecha:"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textViewFechClient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="160dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="xxxxxxxxx"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="230dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Datos del Artículo"
+                android:textColor="@color/orange"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="250dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Tipo de Cortina:"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textViewTipoCor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="270dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="xxxxxxxxx"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="250dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Largo:"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textwViewLargo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="270dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="xxxxxxxxx"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="310dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Ancho:"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textViewAncho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="330dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="xxxxxxxxx"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="310dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Area Total:"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textViewArea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="330dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="xxxxxxxxx"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <!--<androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_marginLeft="400dp"
+                android:layout_marginTop="210dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="10dp"
+                app:cardPreventCornerOverlap="false">
+
+                    <RelativeLayout
+                        android:layout_width="546dp"
+                        android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="350dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/poppins_medium"
+                                android:text="Datos de la Compra"
+                                android:textColor="@color/orange"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="350dp"
+                                android:layout_marginTop="35dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:text="Número de Cuotas:"
+                                android:textColor="@color/black"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/textViewCuotas"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="400dp"
+                                android:layout_marginTop="35dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:text="xxxxxxxxx"
+                                android:textColor="@color/black"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="350dp"
+                                android:layout_marginTop="60dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:text="Abonos:"
+                                android:textColor="@color/black"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/textViewAbono"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="350dp"
+                                android:layout_marginTop="60dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:text="xxxxxxxxx"
+                                android:textColor="@color/black"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="350dp"
+                                android:layout_marginTop="85dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:text="Saldo Pendiente:"
+                                android:textColor="@color/black"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/textViewSaldoPen"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="350dp"
+                                android:layout_marginTop="85dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:text="xxxxxxxxx"
+                                android:textColor="@color/black"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="350dp"
+                                android:layout_marginTop="110dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:text="Saldo Total:"
+                                android:textColor="@color/black"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/textViewSaldoTotal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="350dp"
+                                android:layout_marginTop="110dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:text="xxxxxxxxx"
+                                android:textColor="@color/black"
+                                android:textSize="12sp" />
+                    </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+-->
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="280dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="380dp"
+                android:layout_marginTop="170dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="10dp"
+                app:cardPreventCornerOverlap="false">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="80dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Datos de la Compra"
+                        android:textColor="@color/orange"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="35dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="Número de Cuotas:"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textViewCuotas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="35dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="xxxxxxxxx"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="94dp"
+                        android:layout_marginTop="60dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="Abonos:"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textViewAbono"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="60dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="xxxxxxxxx"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="36dp"
+                        android:layout_marginTop="85dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="Saldo Pendiente:"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textViewSaldoPen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="85dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="xxxxxxxxx"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="67dp"
+                        android:layout_marginTop="110dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="Saldo Total:"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textViewSaldoTotal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="110dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="xxxxxxxxx"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

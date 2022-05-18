@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/drawable/design_button.xml" value="0.26614583333333336" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/drawable/design_text.xml" value="0.26614583333333336" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/drawable/detail_datos.xml" value="0.26614583333333336" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout-land/activity_abono.xml" value="0.1953125" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout-land/activity_login.xml" value="0.22604166666666667" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout-land/activity_main.xml" value="0.22604166666666667" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout-land/fragment_abono.xml" value="0.1953125" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout-land/fragment_articulo.xml" value="0.22604166666666667" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout-land/fragment_detail.xml" value="0.2953125" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout-land/fragment_to_do.xml" value="0.2953125" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout-land/fragment_venta.xml" value="0.3020833333333333" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout-sw720dp-land/activity_login.xml" value="0.16953125" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout-sw720dp-land/activity_main.xml" value="0.16953125" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout-sw720dp-land/fragment_abono.xml" value="0.16953125" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout-sw720dp-land/fragment_articulo.xml" value="0.16953125" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout-sw720dp-land/fragment_venta.xml" value="0.2265625" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout-sw720dp/activity_abono.xml" value="0.1875" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout-sw720dp/activity_login.xml" value="0.1875" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout-sw720dp/activity_main.xml" value="0.1875" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout-sw720dp/activity_venta.xml" value="0.1875" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout-sw720dp/fragment_abono.xml" value="0.1875" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout-sw720dp/fragment_articulo.xml" value="0.1875" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout-sw720dp/fragment_detail.xml" value="0.1875" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout-sw720dp/fragment_to_do.xml" value="0.1875" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout-sw720dp/fragment_venta.xml" value="0.1875" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/activity_abono.xml" value="0.25" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/activity_articulo.xml" value="0.25" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/activity_gallery.xml" value="0.25" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/activity_info.xml" value="0.25" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/activity_registro.xml" value="0.25" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/activity_venta.xml" value="0.25" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/activity_welcome.xml" value="0.25" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/fragment_abono.xml" value="0.25" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/fragment_articulo.xml" value="0.25" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/fragment_blank.xml" value="0.25" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/fragment_detail.xml" value="0.264" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/fragment_to_do.xml" value="0.2359375" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/fragment_venta.xml" value="0.2359375" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/nav_header.xml" value="0.25" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/task_list_items.xml" value="0.25" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/menu/nav_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Queso/OneDrive/Documentos/ucaldas/desarrollo movil/app de revision/petitspotins/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/Queso/OneDrive/Documentos/venta-de-cortinas/petitspotins/app/src/main/res/layout-land/activity_abono.xml" value="0.2984375" />
+        <entry key="..\:/Users/Queso/OneDrive/Documentos/venta-de-cortinas/petitspotins/app/src/main/res/layout-land/activity_main.xml" value="0.29375" />
+        <entry key="..\:/Users/Queso/OneDrive/Documentos/venta-de-cortinas/petitspotins/app/src/main/res/layout-land/activity_venta.xml" value="0.2" />
+        <entry key="..\:/Users/Queso/OneDrive/Documentos/venta-de-cortinas/petitspotins/app/src/main/res/layout-sw720dp-land/activity_abono.xml" value="0.212890625" />
+        <entry key="..\:/Users/Queso/OneDrive/Documentos/venta-de-cortinas/petitspotins/app/src/main/res/layout-sw720dp-land/activity_venta.xml" value="0.152" />
+        <entry key="..\:/Users/Queso/OneDrive/Documentos/venta-de-cortinas/petitspotins/app/src/main/res/layout-sw720dp/activity_abono.xml" value="0.1875" />
+        <entry key="..\:/Users/Queso/OneDrive/Documentos/venta-de-cortinas/petitspotins/app/src/main/res/layout-sw720dp/activity_venta.xml" value="0.2" />
+        <entry key="..\:/Users/Queso/OneDrive/Documentos/venta-de-cortinas/petitspotins/app/src/main/res/layout/activity_abono.xml" value="0.25" />
+        <entry key="..\:/Users/Queso/OneDrive/Documentos/venta-de-cortinas/petitspotins/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Queso/OneDrive/Documentos/venta-de-cortinas/petitspotins/app/src/main/res/layout/activity_venta.xml" value="0.264" />
+        <entry key="..\:/Users/Queso/OneDrive/Documentos/venta-de-cortinas/petitspotins/app/src/main/res/layout/nav_header.xml" value="0.264" />
+        <entry key="..\:/Users/Queso/OneDrive/Documentos/venta-de-cortinas/petitspotins/app/src/main/res/menu/nav_menu.xml" value="0.4" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/drawable/cut_card_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/drawable/ensayo.xml" value="0.26614583333333336" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/drawable/ic_home.xml" value="0.26614583333333336" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/font/poppins_bold.xml" value="0.28020833333333334" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout-land/activity_abono.xml" value="0.31302083333333336" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout-land/activity_login.xml" value="0.3046875" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout-land/activity_main.xml" value="0.31302083333333336" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout-land/activity_welcome.xml" value="0.136" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout-land/fragment_abono.xml" value="0.2" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout-sw720dp-land/activity_abono.xml" value="0.234765625" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout-sw720dp-land/activity_login.xml" value="0.228515625" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout-sw720dp-land/activity_main.xml" value="0.234765625" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout-sw720dp-land/fragment_abono.xml" value="0.152" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout-sw720dp/activity_abono.xml" value="0.1875" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout-sw720dp/activity_login.xml" value="0.1875" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout-sw720dp/activity_main.xml" value="0.1875" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout-sw720dp/fragment_abono.xml" value="0.1875" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout/activity_abono.xml" value="0.25" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout/activity_main.xml" value="0.24615384615384617" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout/activity_to_do.xml" value="0.25" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout/activity_venta.xml" value="0.24615384615384617" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout/activity_welcom.xml" value="0.25" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout/activity_welcome.xml" value="0.24615384615384617" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout/fragment_abono.xml" value="0.25" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/programas/petitspotins-copia/app/src/main/res/layout/fragment_to_do.xml" value="0.25" />
+        <entry key="..\:/programas/petitspotins/app/src/main/res/layout-land/activity_abono.xml" value="0.2" />
+        <entry key="..\:/programas/petitspotins/app/src/main/res/layout-land/activity_main.xml" value="0.2" />
+        <entry key="..\:/programas/petitspotins/app/src/main/res/layout-sw720dp-land/activity_abono.xml" value="0.152" />
+        <entry key="..\:/programas/petitspotins/app/src/main/res/layout-sw720dp-land/activity_main.xml" value="0.152" />
+        <entry key="..\:/programas/petitspotins/app/src/main/res/layout-sw720dp/activity_abono.xml" value="0.1875" />
+        <entry key="..\:/programas/petitspotins/app/src/main/res/layout-sw720dp/activity_main.xml" value="0.1875" />
+        <entry key="..\:/programas/petitspotins/app/src/main/res/layout/activity_abono.xml" value="0.264" />
+        <entry key="..\:/programas/petitspotins/app/src/main/res/layout/activity_main.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

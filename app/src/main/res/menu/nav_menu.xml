@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item
+        android:id="@+id/nav_todo"
+        android:icon="@drawable/grupo"
+        android:title="Clientes"/>
+
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/carrito"
+        android:title="Registrar Ventas"/>
+
+    <item
+
+        android:icon="@drawable/quitarcarrito"
+        android:title="Eliminar Venta"/>
+
+    <item
+
+        android:icon="@drawable/moneda"
+        android:title="Registrar Abono"/>
+
+    <item
+
+        android:icon="@drawable/borrar"
+        android:title="Eliminar Abono"/>
+
+    <item
+
+        android:icon="@drawable/tienda"
+        android:title="Articulos"/>
+
+    <item
+
+        android:icon="@drawable/cinta"
+        android:title="Medidas"/>
+
+
+
+</menu>

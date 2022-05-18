@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GalleryActivity">
+
+    <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+        android:id="@+id/carousel"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:captionMargin="20dp"
+        app:captionTextSize="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:text="Petits Potins"
+        android:textColor="#7D726D"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#312E2C"
+        android:textSize="13sp"
+        android:text="Somos una empresa que busca satisfacer las necesidades de nuestros clientes por medio de los mejores insumos y a un precio justo. Buscamos incorporar a nuestras cortinas y persianas materiales de alta calidad dispuestos en el mercado, para así brindar entornos agradables, confortables y elegantes, ofreciendo gran variedad de estilos inspirados en el arte, la arquitectura, la naturaleza y la tecnología, con mas de 350 modelos y colores de tela a elegir."/>
+
+
+</LinearLayout>

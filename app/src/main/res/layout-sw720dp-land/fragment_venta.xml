@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cafe_claro">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/my_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:titleTextColor="@android:color/primary_text_dark"
+                android:background="@color/cafe_bar"
+                android:elevation="4dp"
+                android:fontFamily="@font/poppins_medium"
+                android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textColor="@color/white"
+                    android:textSize="40sp"
+                    android:fontFamily="@font/poppins_medium"
+                    />
+            </androidx.appcompat.widget.Toolbar>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="32dp"
+                android:orientation="vertical"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="60dp"
+                app:cardElevation="16dp"
+                app:cardPreventCornerOverlap="false">
+
+                <!--<RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/sala_4"
+                    android:alpha=".50"/>-->
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:gravity="center">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_bold"
+                            android:gravity="center_horizontal|top"
+                            android:text="@string/txt_reg_venta"
+                            android:textColor="#312E2C"
+                            android:textSize="50sp" />
+
+                    </LinearLayout>
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="110dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="@string/txt_date_vent"
+                        android:textColor="@color/dorado"
+                        android:textSize="30sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="150dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="@string/txt_cod_vent"
+                        android:textColor="@color/black"
+                        android:textSize="32sp" />
+
+                    <EditText
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="200dp"
+                        android:background="@drawable/design_text"
+                        android:ems="10"
+                        android:fontFamily="@font/poppins_medium"
+                        android:inputType="number"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="535dp"
+                        android:layout_marginTop="150dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="@string/txt_fech_vent"
+                        android:textColor="@color/black"
+                        android:textSize="32sp" />
+
+                    <EditText
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="535dp"
+                        android:layout_marginTop="200dp"
+                        android:background="@drawable/design_text"
+                        android:ems="6"
+                        android:fontFamily="@font/poppins_medium"
+                        android:inputType="number"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="840dp"
+                        android:layout_marginTop="150dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="@string/txt_cc_ven"
+                        android:textColor="@color/black"
+                        android:textSize="32sp" />
+
+                    <EditText
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="840dp"
+                        android:layout_marginTop="200dp"
+                        android:background="@drawable/design_text"
+                        android:ems="8"
+                        android:fontFamily="@font/poppins_medium"
+                        android:inputType="number"
+                        android:textSize="24sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="300dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="@string/txt_date_cli"
+                        android:textColor="@color/dorado"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="330dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="@string/txt_cli_name"
+                        android:textColor="@color/black"
+                        android:textSize="32sp" />
+
+                    <EditText
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="370dp"
+                        android:background="@drawable/design_text"
+                        android:ems="10"
+                        android:fontFamily="@font/poppins_medium"
+                        android:inputType="number"
+                        android:textSize="24sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="535dp"
+                        android:layout_marginTop="330dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="@string/txt_cc_client"
+                        android:textColor="@color/black"
+                        android:textSize="32sp" />
+
+                    <EditText
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="535dp"
+                        android:layout_marginTop="370dp"
+                        android:background="@drawable/design_text"
+                        android:ems="6"
+                        android:fontFamily="@font/poppins_medium"
+                        android:inputType="number"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="840dp"
+                        android:layout_marginTop="330dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="@string/txt_dire"
+                        android:textColor="@color/black"
+                        android:textSize="32sp" />
+
+                    <EditText
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="840dp"
+                        android:layout_marginTop="370dp"
+                        android:background="@drawable/design_text"
+                        android:ems="8"
+                        android:fontFamily="@font/poppins_medium"
+                        android:inputType="number"
+                        android:textSize="24sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="460dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="@string/txt_lati"
+                        android:textColor="@color/black"
+                        android:textSize="32sp" />
+
+                    <EditText
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="500dp"
+                        android:background="@drawable/design_text"
+                        android:ems="10"
+                        android:fontFamily="@font/poppins_medium"
+                        android:inputType="number"
+                        android:textSize="24sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="535dp"
+                        android:layout_marginTop="460dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="@string/txt_lon"
+                        android:textColor="@color/black"
+                        android:textSize="32sp" />
+
+                    <EditText
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="535dp"
+                        android:layout_marginTop="500dp"
+                        android:background="@drawable/design_text"
+                        android:ems="6"
+                        android:fontFamily="@font/poppins_medium"
+                        android:inputType="number"
+                        android:textSize="24sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="600dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="@string/txt_data_art"
+                        android:textColor="@color/dorado"
+                        android:textSize="30sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="640dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="@string/txt_type_art"
+                        android:textColor="@color/black"
+                        android:textSize="32sp" />
+
+                    <EditText
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="680dp"
+                        android:background="@drawable/design_text"
+                        android:ems="10"
+                        android:fontFamily="@font/poppins_medium"
+                        android:inputType="number"
+                        android:textSize="24sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="535dp"
+                        android:layout_marginTop="640dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="@string/txt_anch"
+                        android:textColor="@color/black"
+                        android:textSize="32sp" />
+
+                    <EditText
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="535dp"
+                        android:layout_marginTop="680dp"
+                        android:background="@drawable/design_text"
+                        android:ems="6"
+                        android:fontFamily="@font/poppins_medium"
+                        android:inputType="number"
+                        android:textSize="24sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="840dp"
+                        android:layout_marginTop="640dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="@string/txt_larg"
+                        android:textColor="@color/black"
+                        android:textSize="32sp" />
+
+                    <EditText
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="840dp"
+                        android:layout_marginTop="680dp"
+                        android:background="@drawable/design_text"
+                        android:ems="8"
+                        android:fontFamily="@font/poppins_medium"
+                        android:inputType="number"
+                        android:textSize="24sp" />
+
+                    <!--      <Button
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginStart="550dp"
+                              android:layout_marginTop="800dp"
+                              android:backgroundTint="@color/orange"
+                              android:fontFamily="@font/poppins_medium"
+                              android:text="@string/text_login"
+                              android:textColor="@color/white"
+                              android:textSize="24dp" />-->
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="550dp"
+                        android:layout_marginTop="800dp"
+                        android:background="@drawable/design_button"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="LOGIN"
+                        android:textColor="@color/white"
+                        android:textSize="30sp" />
+
+
+
+
+                </RelativeLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
